@@ -23,6 +23,10 @@ ul {
     width: 500px;
     margin: 0 auto;
 }
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+}
 footer {
     background-color: #373738;
     
