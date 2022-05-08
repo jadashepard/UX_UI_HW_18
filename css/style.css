@@ -1,13 +1,25 @@
-.inline-block {
+header{
+    background-color: white;
+    padding: 15px;
+}
+.inline-block ul{
+    float: right;
+    color: solid black;
+}
+.inline-block li{
     display: inline-block;
-    vertical-align: top;
+    text-align: center;
+    padding: 0px 5px;
+    font-size: 22px;
+    font-family: Garamond, Arial, sans-serif;
 }
 .logo {
     width: 23%;
     padding: 1%;
     text-align: center;
 }
-nav {
+nav{
+    height: 50px;
     width: 73%;
     padding: 1%;
 }
