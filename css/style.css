@@ -1,45 +1,36 @@
-header{
-    background-color: white;
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant Garamond', serif;
+    line-height: 1.5;
+}
+h1 {
+    font-family: 'Merriweather', serif;
+}
+.inline-block{
     padding: 15px;
 }
 .inline-block ul{
     float: right;
-    color: solid black;
 }
 .inline-block li{
     display: inline-block;
-    text-align: center;
-    padding: 0px 5px;
-    font-size: 22px;
-    font-family: Garamond, Arial, sans-serif;
+    padding: 0px 20px;
+    text-decoration: none;
 }
-.logo {
-    width: 23%;
-    padding: 1%;
-    text-align: center;
-}
-nav{
-    height: 50px;
-    width: 73%;
-    padding: 1%;
-}
-ul {
-    width: 50%;
-    margin-left: auto;
-}
-.heroImg {
-    height: 600px;
-    padding: 25px;
-}
-.content {
-    width: 500px;
-    margin: 0 auto;
-}
-.flexContainer {
-    display: flex;
-    flex-direction: column;
+.heroImg{
+    background-color: bisque;
+    padding: 100px 15px; 
 }
 footer {
-    background-color: #373738;
-    
+    padding: 5px;
 }
+footer ul{
+    list-style: none;
+    padding-left: 5px;
+}
+footer .inline-block{
+    display: inline-block;
+    padding: 0px 7px;
+}
+
