@@ -26,6 +26,7 @@ h1 {
 .flex-container{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .left, .right {
     text-align: center;
@@ -34,9 +35,6 @@ h1 {
 .heroImg{
     background-color: bisque;
     padding: 100px 15px;
-}
-.heroImg .flex-container {
-    align-items: center;
 }
 .heroImg .left {
     width: 35vw;
@@ -63,7 +61,21 @@ h1 {
 .my-work h1 {
     text-align: center;
 }
+.work-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    padding: 15px;
+}
+.grid-item{
+    border: 2px solid red;
+    padding: 15px;
+}
 /* FOOTER */
+.contact{
+    text-align: center;
+}
 footer {
     padding: 5px;
 }
